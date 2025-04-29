@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload & Capture Image</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Upload hoặc Chụp Ảnh</h2>
+      
+        <div class="preview-box">
+          <img id="preview" class="preview-img" alt="Ảnh sẽ hiển thị ở đây">
+        </div>
+      
+        <div class="button-group">
+          <input type="file" id="uploadInput" accept="image/*" hidden>
+          <button id="openUpload" class="btn">📁 Tải Ảnh Lên</button>
+          <button id="openCamera" class="btn">📷 Mở Camera</button>
+          <button id="closeCamera" class="btn hidden">❌ Tắt Camera</button>
+          <button id="capture" class="btn hidden">🎯 Chụp Ảnh</button>
+          <button id="deleteBtn" class="btn btn-danger hidden">🗑️ Xóa Ảnh</button>
+        </div>
+      
+        <video id="video" autoplay class="hidden"></video>
+        <canvas id="canvas" class="hidden"></canvas>
+      </div>
+      
+    <script src="scripts/script.js"></script>
+</body>
+</html>

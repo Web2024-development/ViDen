@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #f5f6fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .preview-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px dashed #bbb;
+    border-radius: 12px;
+    background: #fafafa;
+    margin-bottom: 20px;
+    max-width: 100%;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .preview-img {
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .btn {
+    background: #3498db;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #2980b9;
+  }
+  
+  .btn-danger {
+    background: #e74c3c;
+  }
+  
+  .btn-danger:hover {
+    background: #c0392b;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  video {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 15px;
+  }
+  
